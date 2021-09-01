@@ -23,11 +23,11 @@ const ProductScreen = ({ match }) => {
         Retour
       </Link>
       <Row>
-        <Col md={6}>
+        <Col md={6} lg={5}>
           <Image src={product.image} alt={product.name} fluid />
         </Col>
 
-        <Col md={3}>
+        <Col className='mt-3' md={6} lg={4}>
           <ListGroup variant='flush'>
             <ListGroup.Item>
               <h2>{product.name}</h2>
@@ -36,10 +36,10 @@ const ProductScreen = ({ match }) => {
               <Rating value={product.rating} text={`${product.numReviews} reviews`} />
             </ListGroup.Item>
             <ListGroup.Item>Prix: {product.price}€</ListGroup.Item>
-            <ListGroup.Item>Description: {product.description}€</ListGroup.Item>
+            <ListGroup.Item>Description: {product.description}</ListGroup.Item>
           </ListGroup>
         </Col>
-        <Col md={3}>
+        <Col className='mt-3' md={12} lg={3}>
           <Card>
             <ListGroup variant='flush'>
               <ListGroup.Item>

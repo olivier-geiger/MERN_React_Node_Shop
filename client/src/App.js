@@ -11,7 +11,7 @@ function App(products) {
   return (
     <Router>
       <Header />
-      <main className='py-3'>
+      <main className='py-3 bg-light'>
         <Container>
           <Switch>
             <Route path='/' exact component={HomeScreen} />
