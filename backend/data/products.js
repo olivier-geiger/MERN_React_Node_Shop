@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Ecouteur Airpods Wireless Bluetooth',
     image: '/images/airpods.jpg',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '2',
     name: 'iPhone 11 Pro 256GB',
     image: '/images/phone.jpg',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '3',
     name: 'Cannon EOS 80D DSLR Caméra',
     image: '/images/camera.jpg',
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '4',
     name: 'Sony Playstation 4 Pro version blanche',
     image: '/images/playstation.jpg',
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '5',
     name: 'Logitech G-Series Gaming Mouse',
     image: '/images/mouse.jpg',
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '6',
     name: 'Amazon Echo Dot 3ème Génération',
     image: '/images/alexa.jpg',
     description:
@@ -79,4 +73,4 @@ const products = [
   },
 ];
 
-module.exports = products;
+export default products;
